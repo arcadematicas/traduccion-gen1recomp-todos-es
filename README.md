@@ -28,9 +28,10 @@ automáticamente **solo los catálogos de esa generación**.
 | ⚔️ Nombres de movimientos | 165 | 249 | 354 |
 | 🎒 Nombres de objetos | 152 | 214 | 307 |
 | 📖 Descripciones de objetos | — | 251 (Pokédex) | 306 |
-| 🧭 Lugares / mapa | — | 96 | 105 |
+| 🧭 Lugares / mapa | 53 | 96 | 105 |
 | 🏠 Decoraciones / radio | — | 53 / 8 | — |
 | 🎬 Intro del Profesor Oak | — | ✓ | ✓ |
+| 🗺️ Mapa (Town Map) | ✓ 53 nombres | ✓ Pokegear | ✓ carteles |
 
 Incluye además: categorías de la Pokédex, estados de batalla, entrenadores,
 **pantalla de nombres con acentos/ñ/¿¡** (fuente propia en Gen 1) y las
