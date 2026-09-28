@@ -82,6 +82,16 @@ return function(mod)
     each("gen1/status_labels", function(id, v) mod.content.statuses:patch(id, { label = v }); bump("statuses") end)
     each("gen1/dex_kinds", function(id, v) mod.content.pokemon:patch(id, { dexEntry = { kind = v } }); bump("dexkinds") end)
 
+    -- Nombres de lugar en los DATOS (data.field.townMap.locations): los usan el
+    -- TownMap del motor (via Strings) y, sobre todo, el banner de ubicación del
+    -- mod quality_of_life, que lee el dato directamente y NO pasa por Strings.
+    for mapId, loc in pairs(catalog("gen1/locations")) do
+      if type(loc) == "table" and type(loc.name) == "string" then
+        mod.content.field:patch("townMap", { locations = { [mapId] = loc } })
+        bump("places")
+      end
+    end
+
     local body = mod:read("lang/gen1/literal_handlers.lua")
     if body then
       local chunk, err = loadstring(body, "lang/gen1/literal_handlers.lua")

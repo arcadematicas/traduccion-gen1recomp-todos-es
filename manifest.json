@@ -1,7 +1,7 @@
 {
   "id": "translation-es-all",
   "name": "Traducción al español — Todos los juegos",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "api": 2,
   "entry": "main.lua",
   "profile": "content",
