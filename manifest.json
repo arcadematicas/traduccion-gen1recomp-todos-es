@@ -1,7 +1,7 @@
 {
   "id": "translation-es-all",
   "name": "Traducción al español — Todos los juegos",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "api": 2,
   "entry": "main.lua",
   "profile": "content",
@@ -24,5 +24,6 @@
   "conflicts": [],
   "incompatible": [],
   "experimental": false,
-  "description": "Traducción al español de TODOS los juegos de gen1recomp en un solo mod: Rojo/Azul/Amarillo (Gen 1), Oro/Plata/Cristal (Gen 2) y FireRed/LeafGreen (Gen 3). Diálogos, textos del motor, nombres de movimientos y objetos, Pokédex, lugares, y pantalla de nombres con acentos. Aplica automáticamente los catálogos de la generación que estés jugando."
+  "description": "Traducción al español de TODOS los juegos de gen1recomp en un solo mod: Rojo/Azul/Amarillo (Gen 1), Oro/Plata/Cristal (Gen 2) y FireRed/LeafGreen (Gen 3). Diálogos, textos del motor, nombres de movimientos y objetos, Pokédex, lugares, y pantalla de nombres con acentos. Aplica automáticamente los catálogos de la generación que estés jugando.",
+  "github": "arcadematicas/traduccion-gen1recomp-todos-es"
 }
