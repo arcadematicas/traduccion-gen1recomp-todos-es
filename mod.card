@@ -1,0 +1,31 @@
+return {
+  summary   = "Traducción al español de los 8 juegos de gen1recomp (RBY + GSC + FireRed/LeafGreen) en un solo mod.",
+  author    = "Fransis",
+  tags      = { "language", "spanish", "all-games", "gen1", "gen2", "gen3" },
+  differences = {
+    changed = {
+      "Diálogos de los 8 juegos traducidos",
+      "Textos del motor (menús, batalla, PC, tiendas, UI) por generación",
+      "Nombres de movimientos y objetos con la localización oficial de cada generación",
+      "Descripciones de objetos (Gen 3) y de la Pokédex (Gen 2)",
+      "Nombres de lugares, mapa y decoraciones (Gen 2) y carteles de zona (Gen 3)",
+      "Intro del Profesor Oak (Gen 2 y Gen 3)",
+      "Pantalla de nombres con acentos/ñ/¿¡ (fuente propia en Gen 1)",
+    },
+    added = {
+      "Un único mod para los 8 juegos: detecta la generación y aplica su catálogo",
+      "Autoactualización desde el gestor con un solo repositorio",
+    },
+    known = {
+      "Nombres de habilidades y descripciones de movimientos/habilidades (Gen 2/3) no son parcheables",
+      "Textos de la Pokédex de Gen 3 y Easy Chat no son parcheables",
+      "~1.100 diálogos de Gen 3 sin correspondencia en el corpus",
+    },
+  },
+  credits   = {
+    { who = "Fransis",    for_ = "traducción y adaptación" },
+    { who = "PokeCorpus", for_ = "corpus paralelo EN/ES (textos oficiales)" },
+    { who = "gen1recomp", for_ = "motor y sistema de mods" },
+  },
+  compat    = { engine = ">=0.3.0 <1.0.0", modApi = 2 },
+}
